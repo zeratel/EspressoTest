@@ -32,7 +32,7 @@ public class CalculatorTest {
 
     @Test
     public void testAdd2() throws Exception {
-        Assert.assertThat(calculator.add(2d,1d), CoreMatchers.is(CoreMatchers.equalTo(500d)));
+        Assert.assertThat(calculator.add(2d,1d), CoreMatchers.is(CoreMatchers.equalTo(3d)));
     }
 
     @Test
