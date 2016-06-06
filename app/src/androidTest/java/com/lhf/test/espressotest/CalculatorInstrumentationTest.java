@@ -53,7 +53,7 @@ public class CalculatorInstrumentationTest extends ActivityInstrumentationTestCa
 
     @Test
     public void add() {
-        testView(R.id.operation_add_btn, 1d, 2d, 3d);
+        testView(R.id.operation_add_btn, 1d, 2d, 5d);
     }
 
     private void testView(int operation_add_btn, double v, double v1, double v2) {
